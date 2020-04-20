@@ -15,7 +15,7 @@ class JavaApplication4 {
         
         String computerChoice = choiceStack[randomNum];
         
-        do{
+        
         System.out.println("Welcome to the game made by CipherSchools");
         
         Scanner obj = new Scanner(System.in);
@@ -50,9 +50,6 @@ class JavaApplication4 {
             System.out.println("Please provide a valid input and tell me when you didn't had a mood of playing why did you come here");
             
         }
-        System.out.println("Do you want to re run ? Type in y for yes");
-        re_run = obj.nextLine();
-        }while(re_run.equals("y") || re_run.equals("Y"));
     }
     
 }
